@@ -1,534 +1,297 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Muhammad Yasir MAIB - Frontend Developer Portfolio built with Tailwind CSS, HTML, and modern UI design.">
-  <meta name="keywords" content="Yasir MAIB, Frontend Developer, HTML, Tailwind CSS, Portfolio">
-  <!--title-->
-  <title>Yasir | Portfolio</title>
-  <!-- Animation link --> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <!--fav-icon-->
-  <link rel="shortcut icon" href="fav.icon.image.png" type="image/x-icon">
-  <!-- Remix Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Inter Font (All Thin Weights Included) -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Apply font globally -->
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
+    <title>Idreesia | Taleemat</title>
+    <!--icon-->
+    <link rel="shortcut icon" href="urdu-idreesia-logo.png" type="image/x-icon">
+    <!--script CDN Tailwind CSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--remix icon-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
-<body class="bg-slate-800 m-0">
-<!-- header section starts -->
-<header class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/10 border-b border-white/30 px-3 md:p-0">
-  <!-- navbar starts -->
-  <nav class="max-w-7xl mx-auto flex items-center justify-between p-3 text-yellow-400">
-    <!-- small screen icon -->
-    <div class="text-[28px] font-medium md:hidden flex">
-      <a href="/">&#8801</a>
-    </div>
-   <!-- logo -->
-    <div class="lg:text-[30px] md:text-[25px] text-[20px] font-medium cursor-pointer">
-      <h1>
-        <i>Yasir</i>
-        <sup>
-          <span class="text-yellow-100 hover:text-yellow-400 cursor-pointer"><i>Portfolio</i></sup>
-      </h1>
-    </div>
-    <!-- list items -->
-    <ul class="hidden md:flex items-center justify-center lg:space-x-4 md:space-x-2 lg:text-xl md:text-sm">
-      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer hover:scale-105 z-10"><a href="https://muhammadyasirmaib28.github.io/My-Personal-Portfolio/">Home</a></li>
-      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer hover:scale-105 z-10">About</li>
-      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer hover:scale-105 z-10">Services</li>
-      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer hover:scale-105 z-10">Projects</li>
-      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer hover:scale-105 z-10">Contact Us</li>
-    </ul>
-    <!-- button -->
-    <a class="text-black lg:text-lg md:text-md text-sm font-medium px-4 py-1 bg-yellow-600 rounded-lg hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="Resume.pdf">
-      Check Resume
-    </a>
-  </nav>
-  <!-- navbar ends -->
-</header>
-<!-- header section ends -->
-
-<!--main section starts here-->
-<section class="relative z-10 w-full h-auto border-b-2 border-white flex flex-col md:flex-row items-center justify-center gap-10 pt-[90px] md:pt-[70px] pb-10 overflow-hidden bg-slate-800">
-  <!-- Background image with blur -->
-  <div class="absolute inset-0 -z-10">
-    <img src="main section blur image.jpg" class="w-full h-full object-cover blur-md" alt="Background">
-    <!-- Dark overlay -->
-    <div class="absolute inset-0 bg-black/40"></div>
-  </div>
-  <!-- Text section -->
-  <div class="lg:w-[45%] w-[90%] text-white flex flex-col gap-4 text-center md:text-left p-4 md:p-8 animate__animated animate__fadeInUp">
-    <h1 class="lg:text-4xl md:text-2xl text-xl font-bold">
-      Hi, I am <span class="text-yellow-400"><i>M.Yasir MAIB</i></span> From Multan. I am a Passionate
-      <span class="text-yellow-400">Web-Developer & Software-Engineer.</span>
-    </h1>
-    <p class="lg:text-xl md:text-base text-sm font-light">
-      I am a <span class="text-yellow-400">Front-End Developer</span> and currently learning back-end technologies. 
-      I am also a college student. I have built 7 front-end-based projects so far, 
-      out of which 5 are real-life projects. I am a JavaScript Developer and currently 
-      learning <span class="text-yellow-400">JavaScript and React.</span> The strong programming languages I have learned 
-      so far are <span class="text-yellow-400">HTML, CSS, and Tailwind CSS.</span>
-    </p>
-    <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
-      <a class="md:px-6 px-4 py-2 rounded-lg bg-yellow-600 lg:text-lg md:text-md text-sm font-medium text-black transition-all duration-500 ease-in-out hover:scale-105 z-10" href="https://github.com/muhammadyasirmaib28">Visit GitHub</a>
-      <a class="md:px-6 px-4 py-2 rounded-lg bg-yellow-600 lg:text-lg md:text-md text-sm font-medium text-black transition-all duration-500 ease-in-out hover:scale-105 z-10" href="https://www.linkedin.com/in/muhammad-yasir-maib-095ba7389">LinkedIn Profile</a>
-    </div>
-  </div>
-  <!-- Image section -->
-  <div class="lg:w-[45%] md:w-[40%] w-[70%] flex items-center justify-center animate__animated animate__fadeInDown">
-    <div class="w-[180px] h-[180px] md:w-[250px] md:h-[250px] lg:w-[320px] lg:h-[360px] rounded-full border-2 border-yellow-400 shadow-2xl shadow-yellow-500 overflow-hidden">
-      <img class="w-full h-full object-cover object-top" src="main-logo-image.png" alt="Profile Image">
-    </div>
-  </div>
-</section>
-<!--main section ends here-->
-
-<!--services section starts here-->
-<section class="w-full bg-yellow-600/80 text-white border-b-2 border-white">
-  <div class="max-w-7xl mx-auto md:h-[535px] h-auto flex flex-col md:flex-row items-stretch">
-    <!-- TEXT (50%) -->
-    <div class="md:w-1/2 w-full flex flex-col justify-center px-6 md:px-12 py-10">
-      <p class="text-white md:text-[35px] text-xl font-medium underline underline-offset-8 mb-6">SERVICES</p>
-
-      <div class="md:text-xl text-lg font-light text-left leading-relaxed">
-        <i>
-          I provide modern and responsive web design services tailored
-          to your needs. My focus is on creating clean, user-friendly,
-          and fully functional websites using HTML, CSS, and Tailwind CSS.
-          I aim to deliver projects that are not only visually appealing
-          but also optimized for performance and accessibility.
-        </i>
-      </div>
-
-      <div class="mt-8">
-        <button class="inline-block md:px-8 px-6 py-2 text-white hover:bg-white/40 font-medium md:text-xl text-lg rounded-lg bg-white/20 transition-all duration-300">
-          Contact Us
-        </button>
-      </div>
-    </div>
-
-    <!-- VIDEO (50%) -->
-    <div class="md:w-1/2 w-full flex items-center justify-center px-6 md:px-12 py-10">
-      <!-- video card (small box inside the right half) -->
-      <div class="w-full max-w-[520px] md:w-[90%] bg-black/5 rounded-xl overflow-hidden shadow-lg">
-        <video
-          src="Screen Recording 2025-12-02 204752.mp4"
-          class="w-full h-auto object-cover block"
-          autoplay
-          muted
-          loop
-          playsinline
-          aria-label="Service demo video">
-        </video>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!--projects section starts here-->
-<section class="w-full h-auto py-16 px-8 flex flex-col items-center justify-center bg-black/70 border-b-2 border-white">
-  <!--heading-->
-  <div>
-    <p class="md:text-5xl text-1xl text-yellow-500 md:rounded-xl font-md py-2 px-10 rounded-lg mb-10 cursor-default">
-      My Projects
-    </p>
-  </div>
-  <!--main-->
-  <div class="flex flex-wrap justify-center gap-10 p-6">
-    <!-- Idreesia -->
-    <div class="group md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90  transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 py-8 cursor-pointer overflow-hidden border-2 border-white/30">
-      <!-- Content -->
-      <div class="relative z-10 flex flex-col items-center justify-between h-full">
-        <!--image-->
-        <div class="w-20 h-20 md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
-        <img class="w-full h-full object-contain" src="urdu-idreesia-logo.png" alt="">
-        </div>
-      <!--heading-->
-      <h1 class="text-white bg-green-700 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        This was my first project in my web development journey.
-        I recreated the real-life website Idreesia.com entirely
-        by myself using HTML and Tailwind CSS. It was a great 
-        learning experience where I practiced layout design, styling
-        , and responsive web techniques.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer">
-          <a href="https://github.com/muhammadyasirmaib28/Idreesia-Colony">Visit Project Repo</a>
-        </p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Idreesia-Colony/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-  <!--daraz-->
-  <div class="group py-8 md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden border-2 border-white/30">
-    <!--content-->
-    <div class="relative z-10 flex flex-col items-center justify-between h-full">
-      <!--image-->
-      <div class="w-[140px] h-20 rounded-xl overflow-hidden md:w-[180px] md:h-[100px] flex items-center justify-center">
-        <img class="w-full h-full object-cover" src="daraz.image.svg" alt="">
-      </div>
-      <!--heading-->
-      <h1 class="text-white bg-orange-600 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        I created this project as a clone of the real Daraz.pk
-         website using HTML and Tailwind CSS. I designed and built
-          every section myself to improve my frontend development skills
-           and better understand website structure and layout design.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/Daraz-Colony">Visit Project Repo</a></p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Daraz-Colony/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-  <!--co/fitness-->
-  <div class="group py-8 md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden border-2 border-white/30">
-    <!--content-->
-    <div class="relative z-10 flex flex-col items-center justify-between h-full">
-      <!--image-->
-      <div class="w-20 h-20 md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
-        <img class="w-full h-full object-contain" src="logo-vertical.png" alt="">
-      </div>
-      <!--heading-->
-      <h1 class="text-white bg-red-600 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        This is a complete CO Fitness Club website that I built using HTML and Tailwind CSS.
-         It includes multiple fully designed pages, responsive layouts,
-          and a modern UI that highlights fitness programs, trainers, and facilities.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/Co-Fitness-Club-Colony">Visit Project Repo</a></p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Co-Fitness-Club-Colony/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-  <!-- MYS -->
-   <div class="group py-8 md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden border-2 border-white/30">
-     <!-- Content -->
-     <div class="relative z-10 flex flex-col items-center justify-between h-full">
-      <!--image-->
-      <div class="w-20 h-20 md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
-        <img class="w-full h-full object-contain" src="MYS-logo.svg" alt="">
-      </div>
-      <!--heading-->
-      <h1 class="text-white bg-green-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        I developed the MYS Website using HTML, Tailwind CSS, and Remix Icons.
-        It showcases my web development work, skills,
-        and personal projects with a clean, modern, and fully responsive design.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer">
-          <a href="https://github.com/muhammadyasirmaib28/MYS-Conference-Mangement-Colony">Visit Project Repo</a>
-        </p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/MYS-Conference-Mangement-Colony/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-  <!-- Salesforce -->
-   <div class="group py-8 md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden border-2 border-white/30">
-   <!-- Content -->
-    <div class="relative z-10 flex flex-col items-center justify-between h-full">
-      <!--image-->
-      <div class="w-20 h-20 md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
-        <img class="w-full h-full object-contain" src="logo image.svg" alt="">
-      </div>
-      <!--heading-->
-      <h1 class="text-white bg-blue-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        I created the Salesforce UI Clone using HTML and Tailwind CSS. 
-        This project replicates the modern Salesforce interface with a clean layout
-        , responsive design, and attention to UI details to improve my frontend skills.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer">
-          <a href="https://github.com/muhammadyasirmaib28/Salesforce-UI-Colony">Visit Project Repo</a>
-        </p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Salesforce-UI-Colony/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-  <!-- Physics Wallah -->
-  <div class="group py-8 md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden border-2 border-white/30">
-    <!-- Content -->
-     <div class="relative z-10 flex flex-col items-center justify-between h-full">
-      <!--image-->
-      <div class="w-20 h-20 rounded-full overflow-hidden md:w-[120px] md:h-[120px] flex items-center justify-center">
-        <img class="w-full h-full object-cover" src="Physics_wallah_logo.jpg" alt="">
-      </div>
-      <!--heading-->
-      <h1 class="text-white bg-black font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        I built the Physics Wallah Clone using HTML and Tailwind CSS.
-        It recreates the original website’s layout and design with responsive sections and 
-        a clean interface to enhance my frontend development experience.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer">
-          <a href="https://github.com/muhammadyasirmaib28/PW-Skills-Colony">Visit Project Repo</a>
-        </p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/PW-Skills-Colony/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-  <!-- SaaS Landing Page -->
-   <div class="group py-8 md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden border-2 border-white/30">
-    <!-- Content -->
-     <div class="relative z-10 flex flex-col items-center justify-between h-full">
-      <!--image-->
-      <div class="w-20 h-20 rounded-full overflow-hidden md:w-[120px] md:h-[120px] flex items-center justify-center">
-        <img class="w-full h-full object-cover" src="best_saas_landing_page_templates.jpg" alt="">
-      </div>
-      <!--heading-->
-      <h1 class="text-white bg-gray-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        I developed the SaaS Landing Page using HTML and Tailwind CSS.
-        It features a modern, responsive design with interactive sections and dark mode support,
-        focusing on clean UI and professional presentation.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer">
-          <a href="https://github.com/muhammadyasirmaib28/SaaS-Landing-Page-Colony">Visit Project Repo</a>
-        </p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/SaaS-Landing-Page-Colony/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-  <!--new version idreesia-->
-  <div class="group py-8 md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden border-2 border-white/30">
-    <!-- Content -->
-     <div class="relative z-10 flex flex-col items-center justify-between h-full">
-      <!--image-->
-      <div class="w-20 h-20 rounded-full overflow-hidden md:w-[120px] md:h-[120px] flex items-center justify-center">
-        <img class="w-full h-full object-cover" src="urdu-idreesia-logo.png" alt="">
-      </div>
-      <!--heading-->
-      <h1 class="text-white bg-green-700 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        This project is a fully custom, real-life inspired website built for Silsila Muhammadiya Ameenia Idreesia
-        based on their actual center located in Idreesia Colony, Multan.
-        I built this website from scratch using HTML and Tailwind CSS, focusing on modern UI,
-        clean layout, and smooth visual experience.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer">
-          <a href="https://github.com/muhammadyasirmaib28/new-version-idreesia.com">Visit Project Repo</a>
-        </p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/new-version-idreesia.com/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-  <!--MAIB Store-->
-  <div class="group py-8 md:w-[350px] w-[300px] h-[450px] bg-black hover:bg-yellow-600/90 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-2xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden border-2 border-white/30">
-    <!-- Content -->
-     <div class="relative z-10 flex flex-col items-center justify-between h-full">
-      <!--image-->
-      <div class="w-20 h-20 rounded-full overflow-hidden md:w-[120px] md:h-[120px] flex items-center justify-center">
-        <img class="w-full h-full object-cover" src="MAIB Store-image.png" alt="MAIB-Store">
-      </div>
-      <!--heading-->
-      <h1 class="text-white bg-teal-800 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <!--text-->
-      <p class="text-sm font-light text-white text-center cursor-text">
-        MAIB Store is a modern e-commerce web application that I built using HTML, Tailwind CSS. 
-        This project demonstrates my ability to create a fully responsive online store with a clean design, 
-        interactive UI elements, and smooth user experience.
-      </p>
-      <!--buttons-->
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black/90 px-4 py-1 rounded-lg hover:text-white hover:bg-white/30 cursor-pointer">
-          <a href="https://github.com/muhammadyasirmaib28/new-version-idreesia.com">Visit Project Repo</a>
-        </p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm font-medium hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/MAIB-Store/">Visit My Project</a>
-      </div>
-    </div>
-  </div>
-<!--main div ends here-->
-</div>
-</section>
-<!--projects section ends here-->
-
-<!--cards section starts here-->
-<section class="w-full h-auto border-b-2 border-white flex bg-yellow-600/80 flex-col object-cover overflow-hidden flex-wrap gap-16 md:p-20 p-2 py-10 items-center justify-center">
-  <!--heading-->
-  <div class="text-white bg-white/20 p-4 w-[80%] text-center font-medium md:text-2xl text-lg rounded-lg">
-    <h1>My Programming Skills</h1>
-  </div>
-  <!--main flex-->
-  <div class="flex flex-row flex-wrap md:gap-16 gap-10 items-center justify-center">
-    <!--html card-->
-    <div class="md:w-[500px] w-[90%] h-auto bg-white/20 flex flex-col flex-wrap gap-4 rounded-xl p-6 text-white cursor-default">
-      <h1 class="font-bold text-2xl bg-orange-500 p-2 rounded-lg text-center">HTML</h1>
-      <div class="flex flex-col gap-2">
-        <p><b>Start: January 2025</b></p>
-        <p><b>Learning Duration: 1 week</b></p>
-        <p><b>Experience Note:</b></p>
-        <p class="font-light cursor-text">I started learning HTML in January 2025 and mastered the fundamentals within just one week.
-          During this period, I developed a strong understanding of semantic structure, forms, lists, tables, media elements,
-          and best practices for clean, well-organized markup. HTML became the foundation of my web development journey, 
-          and I gained the ability to build complete static web pages efficiently.</p>
-      </div>
-    </div>
-    <!--CSS card-->
-    <div class="md:w-[500px] w-[90%] h-auto bg-white/20 flex flex-col flex-wrap gap-4 rounded-xl p-6 text-white cursor-default">
-      <h1 class="font-bold text-2xl bg-blue-500 rounded-lg p-2 text-center">CSS</h1>
-      <div class="flex flex-col gap-2">
-        <p><b>Start: February 2025</b></p>
-        <p><b>Learning Duration: 2 months</b></p>
-        <p><b>Experience Note:</b></p>
-        <p class="font-light cursor-text">I began learning CSS after completing HTML and spent two months mastering styling techniques.
-          I developed strong skills in layout building, Flexbox, Grid, typography, animations, transitions, responsive design,
-          and custom UI creation. This period greatly improved my design sense and helped me transform simple
-          HTML structures into fully styled, modern, and responsive web pages.</p>
-      </div>
-    </div>
-    <!--TAILWIND CSS card-->
-    <div class="md:w-[500px] w-[90%] h-auto bg-white/20 flex flex-col flex-wrap gap-4 rounded-xl p-6 text-white cursor-default">
-      <h1 class="font-bold text-2xl bg-slate-500 p-2 rounded-lg text-center">TAILWIND CSS</h1>
-      <div class="flex flex-col gap-2">
-        <p><b>Start: April 2025</b></p>
-        <p><b>Learning Duration: 2 weeks</b></p>
-        <p><b>Experience Note:</b></p>
-        <p class="font-light cursor-text">I learned Tailwind CSS in just two weeks and quickly became comfortable using 
-          its utility-first workflow. Tailwind allowed me to build fast, responsive, and modern UI designs with great efficiency.
-          I created multiple components and full responsive pages using Tailwind’s utility classes, mastering spacing, layout, grids,
-          flexbox, typography, dark mode, and custom configuration.</p>
-      </div>
-    </div>
-    <!--JAVASCRIPT card-->
-    <div class="md:w-[500px] w-[90%] h-auto bg-white/20 flex flex-col flex-wrap gap-4 rounded-xl p-6 text-white cursor-default">
-      <h1 class="font-bold text-2xl bg-yellow-500 p-2 rounded-lg text-center">JavaScript</h1>
-      <div class="flex flex-col gap-2">
-        <p><b>Start: September 2025</b></p>
-        <p><b>Learning Duration: Currently Learning</b></p>
-        <p><b>Experience Note:</b></p>
-        <p class="font-light cursor-text">I started learning JavaScript in September 2025 and I am currently continuing my learning journey.
-          I am currently focusing on core concepts such as variables, functions, loops, DOM manipulation, events, arrays, objects,
-          ES6 features, and problem-solving. I am gradually building a strong foundation so I can confidently move toward advanced
-          JavaScript and later frameworks like React.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!--cards section ends here-->
-
-<!--hire me section-->
-<section class="w-full h-auto p-10 bg-gray-900 border-b-2 border-white">
-  <!--main div-->
-  <div class="flex flex-wrap flex-col items-center justify-center md:gap-10 gap-4 text-white">
-    <!--heading-->
-    <h1 class="md:text-4xl text-lg font-medium underline underline-offset-8 cursor-default text-yellow-500">Hire Me!</h1>
-    <!--text-->
-    <p class="md:text-xl text-sm text-center font-light cursor-text">Let’s Build Something Amazing Together 
-      I’m always open to exciting opportunities and collaborations.<br> Whether you’re 
-      looking for a modern website, a responsive UI, or a long-term developer 
-      for your <br> team — I’m ready to help bring your vision to life.
-      Let’s connect and turn your idea into reality!
-    </p>
-    <!--buttons-->
-    <div class="flex md:flex-row flex-col md:gap-6 gap-4 text-center">
-      <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out"><a href="/">Contact Me</a></div>
-      <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out"><a href="Resume.pdf">Download CV</a></div>
-    </div>
-    <!--tools heading-->
-    <h1 class="md:text-4xl text-lg font-medium underline underline-offset-8 cursor-default text-yellow-500"> “Tech Stack & Tools I Use”</h1>
-    <!--text-->
-    <p class="md:text-xl text-sm text-center font-light cursor-text">“These are the tools and technologies that power my daily development workflow.”</p>
-    <!--tools flex-->
-    <div class="flex flex-wrap items-center justify-center md:flex-row md:text-xl text-sm md:gap-10 gap-4 font-medium cursor-default">
-      <p>🧩 VS Code</p>
-      <p>🧠 Git & GitHub</p>
-      <p>🎨 Figma</p>
-      <p>🧑‍💻 Tailwind CSS</p>
-      <p>🌐 HTML, CSS, JS</p>
-    </div>
-  </div>
-</section>
-<!--hire section ends here-->
+<body class="bg-white">
     
-<!--footer section starts here-->
-<footer class="w-full h-auto bg-black text-white flex flex-col flex-wrap items-center justify-center border-b-2 border-white">
-  <!--main flex-->
-  <div class="flex md:flex-row flex-col flex-wrap items-center justify-center p-6 md:gap-20 gap-8 md:my-20 my-[30px]">
-    <!--logo-->
-    <div class="lg:w-[250px] md:w-[180px] w-[150px] h-auto flex flex-col space-y-4">
-      <div class="w-[150px] h-[150px] object-cover overflow-hidden rounded-full">
-        <img class="w-full h-full" src="fav.icon.image.png" alt="">
-      </div>
-      <h1 class="text-2xl font-medium text-yellow-400 cursor-pointer">Yasir <sup class="hover:text-yellow-400 text-yellow-100">Portfolio</sup></h1>
-    </div>
-    <!--main-->
-    <div class="flex flex-col flex-wrap gap-10">
-      <!--about-->
-      <div class="relative z-10 md:w-[380px] w-[280px] h-auto p-2 bg-yellow-500/90 flex flex-wrap flex-col rounded-lg justify-start gap-2">
-        <!--blur image-->
-        <div class="absolute inset-0 -z-10 overflow-hidden">
-          <img src="footer-boxes-blur-image.jpg" class="w-full h-full md:object-cover object-contain blur-sm" alt="">
-          <div class="absolute inset-0 bg-black/50"></div>
+    <!--header-->
+    <header class="w-full h-auto cursor-pointer">
+        <!--header-image-->
+        <div class="w-full lg:h-[250px] md:h-[150px] h-[100px] object-cover">
+            <img class="w-full h-full overflow-hidden" src="header-logo-idreesia.webp" alt="">
         </div>
-        <h1 class="text-2xl text-black/90 font-bold">About Us:</h1>
-        <p class="text-sm font-thin cursor-default text-white">A self-taught web developer, learning and building projects with HTML, CSS, and Tailwind CSS. Always improving skills to deliver better web experiences.</p>
-      </div>
-      <!--contact-->
-      <div class="relative z-10 md:w-[380px] w-[280px] h-auto p-2 bg-yellow-500/90 flex flex-wrap flex-col rounded-lg justify-start gap-2">
-        <!--blur image-->
-        <div class="absolute inset-0 -z-10 overflow-hidden">
-          <img src="footer-boxes-blur-image.jpg" class="w-full h-full md:object-cover object-contain blur-sm" alt="">
-          <div class="absolute inset-0 bg-black/50"></div>
+    </header>
+
+    <!--navbar-->
+    <nav class="w-full h-auto bg-yellow-600/75 flex flex-row flex-wrap items-center justify-between px-6 py-2 text-md font-medium">
+        <!--toogle-->
+        <div class="text-[28px] font-medium px-2 bg-green-700 text-white rounded-lg md:hidden flex">
+          <a href="/">&#8801</a>
         </div>
-        <h1 class="text-2xl text-black/90 font-bold">Contact Us:</h1>
-        <p class="text-sm font-thin cursor-default text-white">Email: <br> 381muhammadyasirmaib@gmail.com</p>
-        <p class="text-sm font-thin cursor-default text-white">Location: <br> Multan</p>
-      </div>
-    </div>
-    <!--links-->
-    <div class="lg:w-[250px] md:w-[180px] w-full items-center md:items-start h-auto flex flex-col md:space-y-4 space-y-3">
-      <a href="https://www.whatsapp.com/"><pre class="md:text-xl text-lg text-green-500 hover:text-green-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30 transition-all duration-500 hover:scale-105 z-10"><i class="ri-whatsapp-line"></i> Whatsapp</pre></a>
-      <a href="https://www.youtube.com/channel/UCziiz9U2OO4mv-MmucXxjmg"><pre class="md:text-xl text-lg text-red-500 hover:text-red-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30 transition-all duration-500 hover:scale-105 z-10"><i class="ri-youtube-line"></i> Youtube</pre></a>
-      <a href="https://www.instagram.com/"><pre class="md:text-xl text-lg text-pink-500 hover:text-pink-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30 transition-all duration-500 hover:scale-105 z-10"><i class="ri-instagram-line"></i> Instagram</pre></a>
-      <a href="https://web.telegram.org/"><pre class="md:text-xl text-lg text-blue-500 hover:text-blue-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30 transition-all duration-500 hover:scale-105 z-10"><i class="ri-telegram-line"></i> Telegram</pre></a>
-      <a href="https://x.com/"><pre class="md:text-xl text-lg text-gray-500 hover:text-gray-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30 transition-all duration-500 hover:scale-105 z-10"><i class="ri-twitter-line"></i> Twitter</pre></a>
-    </div>
-  <!--main flex ends here-->  
-  </div>
-  <!--copyrights-->
-  <div class="text-[12px] md:text-lg font-thin text-white/70 tracking-wider flex flex-wrap items-center justify-center p-2">
-    <p>&copy; 2025 My Personal Portfolio | Muhammad Yasir MAIB</p>
-  </div>
-  <!-- Responsive floating circle icon (Tailwind CSS) -->
-  <div class="fixed bottom-10 right-5 z-50 hidden md:flex">
-    <div class="w-14 h-14 bg-teal-600 rounded-full overflow-hidden flex items-center justify-center hover:z-10 cursor-pointer">
-      <a href="https://github.com/muhammadyasirmaib28"><img src="user.png" class="w-full h-full object-cover" alt="hologram"></a>
-    </div>
-  </div>
-</footer>
-<!--footer section ends here-->
+
+        <!--list icon-->
+        <div>
+            <ul class="flex flex-row gap-4 md:flex hidden">
+                <li class="text-green-700 hover:bg-black/10 p-2 rounded-lg cursor-pointer">Home</li>
+                <li class="hover:bg-black/5 p-2 rounded-lg cursor-pointer">Mehfil</li>
+                <li class="hover:bg-black/5 p-2 rounded-lg cursor-pointer">Naat Shareef</li>
+                <li class="hover:bg-black/5 p-2 rounded-lg cursor-pointer">Taleemat</li>
+                <li class="hover:bg-black/5 p-2 rounded-lg cursor-pointer">Wazaif</li>
+                <li class="hover:bg-black/5 p-2 rounded-lg cursor-pointer">About</li>
+                <li class="hover:bg-black/5 p-2 rounded-lg cursor-pointer">Contact</li>
+            </ul>
+        </div>
+
+        <!--buttons-->
+        <div class="flex flex-row gap-4">
+            <p class="text-black text-2xl font-thin hover:bg-black/5 px-2 rounded-lg"><i class="ri-search-line"></i></p>
+            <button class="px-4 text-black/80 bg-white text-sm rounded-lg cursor-default flex flex-row items-center justify-center">English <p class="text-lg"><i class="ri-arrow-down-s-line"></i></p></button>
+            <button class="px-4 text-white bg-green-700 text-sm rounded-lg">Log In</button>
+        </div>
+    </nav>
+
+    <!--Introduction Section-->
+    <section class="w-full h-auto bg-white text-black/80 flex flex-col flex-wrap items-center justify-center md:gap-12 gap-8 md:mt-[150px] mt-[60px]">
+        <!--naam mubarak image-->
+        <img class="md:w-[650px] w-[400px] md:h-[120px] h-[60px]" src="name-mubarak.png" alt="">
+
+        <!--text-->
+        <p class="md:w-[62%] w-[80%] md:text-xl text-lg text-center">
+            Silsila Muhammadia Ameenia Idreesia began in Pakistan when Al-Mohtaram Al-Mukarram Al-Sayyedi Al-Hafiz Al-Shaikh Muhammad Amin
+             bin Abdur Rahman arrived in Pakistan from Madinah Munawwarah.
+             The primary purpose of this spiritual
+              path is to guide people toward 
+              obedience to Allah Almighty and the Prophet صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ, instilling in their hearts the love and greatness of
+              Allah
+               Almighty and the Prophet صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ. To achieve these goals, reading Durood Shareef, Zikr, and wazaif are given.
+               Additionally, the invaluable treasure of Allah Almighty's and the Prophet's صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ teachings is preserved in the form of recordings by 
+               Mohtaram Shaikh Sahab as a guidance for all until the day of judgement.
+        </p>
+
+        <!--center border image-->
+        <img class="md:w-[500px] w-[250px] md:mb-[120px] mb-[80px]" src="centered-border.png" alt="">
+    </section>
+
+    <!--cards section-->
+    <section class="w-full h-auto px-6 py-16 flex flex-row flex-wrap gap-8 items-center justify-center">
+        <!--card 01-->
+        <div class="group relative z-10 w-[550px] h-[250px] rounded-xl object-cover overflow-hidden flex flex-col gap-4 shadow-lg shadow-black/10 p-8 hover:scale-105 transform transition-all duration-500 ease-in-out hover:shadow-xl hover:shadow-black/20 cursor-pointer">
+            <!--background image-->
+            <div class="absolute inset-0 -z-10">
+              <img src="card bg img.avif" class="w-full h-full object-cover overflow-hidden blur-sm" alt="">
+              <div class="absolute inset-0 bg-white/10"></div>
+            </div>
+            <!--logo + text-->
+            <div class="flex flex-row items-center gap-2">
+                <!--image-->
+                <div class="bg-green-700 md:w-[80px] md:h-[80px] w-[50px] h-[50px] rounded-xl object-cover transition-transform duration-500 group-hover:rotate-6 flex items-center justify-center"><img class="md:w-[60px] md:h-[60px] w-[35px] h-[35px] overflow-hidden" src="allah-allah-white.png" alt=""></div>
+                <div>
+                  <h1 class="md:text-2xl text-xl font-bold md:ml-[20px] ml-[10px] group-hover:text-green-700">Mehfil</h1>
+                  <div class="md:w-[80px] md:h-[5px] w-[60px] h-[2px] rounded-lg group-hover:bg-green-700 transform transition-transform duration-500 md:group-hover:translate-x-5 group-hover:translate-x-2"></div>
+                </div>  
+            </div>
+            <!--text + button-->
+            <div class="flex flex-col gap-4">
+                <p class="text-black/70 md:text-lg text-md">Join regular gatherings for spiritual enlightenment and blessed teachings</p>
+                <button class="flex flex-row font-medium text-lg text-green-700">Listen<p class="text-xl ml-[10px] transform transition-transform duration-500 group-hover:translate-x-4"><i class="ri-arrow-right-line"></i></p></button>
+            </div>
+        </div>
+
+        <!--card 02-->
+        <div class="group relative z-10 w-[550px] h-[250px] rounded-xl object-cover overflow-hidden flex flex-col gap-4 shadow-lg shadow-black/10 p-8 hover:scale-105 transform transition-all duration-500 ease-in-out hover:shadow-xl hover:shadow-black/20 cursor-pointer">
+            <!--background image-->
+            <div class="absolute inset-0 -z-10">
+              <img src="card bg img.avif" class="w-full h-full object-cover overflow-hidden blur-sm" alt="">
+              <div class="absolute inset-0 bg-white/10"></div>
+            </div>
+            <!--logo + text-->
+            <div class="flex flex-row items-center gap-2">
+                <!--image-->
+                <div class="bg-yellow-500/90 md:w-[80px] md:h-[80px] w-[50px] h-[50px] rounded-xl object-cover transition-transform duration-500 group-hover:rotate-6 flex items-center justify-center"><img class="md:w-[60px] md:h-[60px] w-[30px] h-[30px] overflow-hidden" src="durood-white.png" alt=""></div>
+                <div>
+                  <h1 class="md:text-2xl text-xl font-bold md:ml-[20px] ml-[10px] group-hover:text-yellow-500/90">Naat Shareef</h1>
+                  <div class="md:w-[150px] md:h-[5px] w-[120px] h-[2px] rounded-lg group-hover:bg-yellow-500/90 transform transition-transform duration-500 md:group-hover:translate-x-5 group-hover:translate-x-2"></div>
+                </div>  
+            </div>
+            <!--text + button-->
+            <div class="flex flex-col gap-4">
+                <p class="text-black/70 md:text-lg text-md">listen to beautiful recitations in praise of the Propher SAW</p>
+                <button class="flex flex-row font-medium text-lg text-yellow-500/90">Listen<p class="text-xl ml-[10px] transform transition-transform duration-500 group-hover:translate-x-4"><i class="ri-arrow-right-line"></i></p></button>
+            </div>
+        </div>
+
+        <!--card 03-->
+        <div class="group relative z-10 w-[550px] h-[250px] rounded-xl object-cover overflow-hidden flex flex-col gap-4 shadow-lg shadow-black/10 p-8 hover:scale-105 transform transition-all duration-500 ease-in-out hover:shadow-xl hover:shadow-black/20 cursor-pointer">
+            <!--background image-->
+            <div class="absolute inset-0 -z-10">
+              <img src="card bg img.avif" class="w-full h-full object-cover overflow-hidden blur-sm" alt="">
+              <div class="absolute inset-0 bg-white/10"></div>
+            </div>
+            <!--logo + text-->
+            <div class="flex flex-row items-center gap-2">
+                <!--image-->
+                <div class="bg-blue-950/100 md:w-[80px] md:h-[80px] w-[50px] h-[50px] rounded-xl object-cover transition-transform duration-500 group-hover:rotate-6 flex items-center justify-center"><img class="md:w-[60px] md:h-[60px] w-[30px] h-[30px] overflow-hidden" src="lailah-white.png" alt=""></div>
+                <div>
+                  <h1 class="md:text-2xl text-xl font-bold md:ml-[20px] ml-[10px] group-hover:text-blue-950/100">Taleemat</h1>
+                  <div class="md:w-[110px] md:h-[5px] w-[90px] h-[2px] rounded-lg group-hover:bg-blue-950/100 transform transition-transform duration-500 md:group-hover:translate-x-5 group-hover:translate-x-2"></div>
+                </div>  
+            </div>
+            <!--text + button-->
+            <div class="flex flex-col gap-4">
+                <p class="text-black/70 md:text-lg text-md">Access invaluable spiritual teachings and guidance for all</p>
+                <button class="flex flex-row font-medium text-lg text-blue-950/100">Listen<p class="text-xl ml-[10px] transform transition-transform duration-500 group-hover:translate-x-4"><i class="ri-arrow-right-line"></i></p></button>
+            </div>
+        </div>
+
+        <!--card 04-->
+        <div class="group relative z-10 w-[550px] h-[250px] rounded-xl object-cover overflow-hidden flex flex-col gap-4 shadow-lg shadow-black/10 p-8 hover:scale-105 transform transition-all duration-500 ease-in-out hover:shadow-xl hover:shadow-black/20 cursor-pointer">
+            <!--background image-->
+            <div class="absolute inset-0 -z-10">
+              <img src="card bg img.avif" class="w-full h-full object-cover overflow-hidden blur-sm" alt="">
+              <div class="absolute inset-0 bg-white/10"></div>
+            </div>
+            <!--logo + text-->
+            <div class="flex flex-row items-center gap-2">
+                <!--image-->
+                <div class="bg-orange-700/70 md:w-[80px] md:h-[80px] w-[40px] h-[40px] rounded-xl overflow-hidden transition-transform duration-500 group-hover:rotate-6 flex items-center justify-center"><img class="md:w-[60px] md:h-[60px] w-[30px] h-[30px] object-cover" src="astaghfirullah-white.png" alt=""></div>
+                <div>
+                  <h1 class="md:text-2xl text-xl font-bold md:ml-[20px] ml-[10px] group-hover:text-orange-700/70">Wazaif</h1>
+                  <div class="md:w-[80px] md:h-[5px] w-[70px] h-[2px] rounded-lg group-hover:bg-orange-700/70 transform transition-transform duration-500 md:group-hover:translate-x-5 group-hover:translate-x-2"></div>
+                </div>  
+            </div>
+            <!--text + button-->
+            <div class="flex flex-col gap-4">
+                <p class="text-black/70 md:text-lg text-md">Discover powerful supplications and recitationsfor spiritual growth</p>
+                <button class="flex flex-row font-medium text-lg text-orange-700/70">Listen<p class="text-xl ml-[10px] transform transition-transform duration-500 group-hover:translate-x-4"><i class="ri-arrow-right-line"></i></p></button>
+            </div>
+        </div>
+    </section>
+
+    <!--box section-->
+    <section class="w-full h-auto p-10 py-20 my-5 bg-yellow-600/80 flex flex-row flex-wrap gap-6 items-center justify-center">
+        <!--box 01-->
+        <div class="max-w-[450px] w-[370px] h-auto p-4 px-8 flex flex-row bg-green-700 text-white rounded-xl cursor-pointer gap-4 items-center hover:bg-green-800/90 transform transition-all duration-200 ease-in-out">
+            <div class="w-[60px] h-[50px]"><img class="w-full h-full" src="taleemat.png" alt=""></div>
+            <div class="flex flex-col gap-2">
+               <h1 class="font-bold text-xl">Mahafil Address</h1>
+               <p class="text-sm text-white/80">Mohtaram Shaikh Sahab Ki Muqarar Karda Mahafil</p>
+            </div>
+        </div>
+
+        <!--box 02-->
+        <div class="max-w-[450px] w-[370px] h-auto p-4 px-8 flex flex-row bg-green-700 text-white rounded-xl cursor-pointer gap-4 items-center hover:bg-green-800/90 transform transition-all duration-200 ease-in-out">
+            <div class="w-[60px] h-[50px]"><img class="w-full h-full" src="loud-azan.png" alt=""></div>
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-xl">Latest Messages</h1>
+                <p class="text-sm text-white/80">Latest Updates from Silsila Muhammadia Ameenia Idreesia</p>
+            </div>
+        </div>
+
+        <!--box 03-->
+        <div class="max-w-[450px] w-[370px] h-auto p-4 px-8 flex flex-row bg-green-700 text-white rounded-xl cursor-pointer gap-4 items-center hover:bg-green-800/90 transform transition-all duration-200 ease-in-out">
+            <div class="w-[60px] h-[50px]"><img class="w-full h-full" src="flag-chand.png" alt=""></div>
+            <div class="flex flex-col gap-2">
+                <h1 class="font-bold text-xl">Jammat Timming 381-A</h1>
+                <p class="text-sm text-white/80">Jamia Masjid Al-Shaikh Muhammad Amin bin Abdul Rehman</p>
+            </div>
+        </div>
+    </section>
+
+    <!--wazaif text Section-->
+    <section class="w-full h-auto bg-white text-black/80 flex flex-col flex-wrap items-center justify-center md:gap-12 gap-8 md:mt-[100px] mt-[60px]">
+        <!--heading-->
+        <h1 class="md:text-4xl text-2xl font-bold text-black">Blessings of Wazaif</h1>
+
+        <!--text-->
+        <p class="md:w-[62%] w-[80%] md:text-xl text-lg text-center">
+            If one wishes to have Allah's distinguished blessings then one should recite Wazaif with devotion, love,
+             fondness and regularity. According to Hadit Sharif, Allah likes those deeds which are done regularly without
+              interruption. One who is loyal to Allah and his Prophet صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ will see miracles in all his matters 
+            (Inshallah). In this world and here after they will have
+             a guarantee and security of the Holy Prophet صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ . They will have love of Holy Prophet
+             صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ . Livelihood will rain down upon them. 
+            Impossible and difficult matters shall resolve Inshallah.
+        </p>   
+
+        <!--center border image-->
+        <img class="md:w-[500px] w-[250px] md:mb-[120px] mb-[80px]" src="centered-border.png" alt="">
+    </section>
+
+    <!--footer section-->
+    <section class="w-full h-auto flex flex-col flex-wrap relative z-10 text-white">
+        <!--background image-->
+        <div class="absolute inset-0 -z-10">
+            <img src="card blur image.2.jpg" class="w-full h-full object-cover blur-sm" alt="">
+            <div class="absolute inset-0 bg-green-800/50"></div>
+        </div>
+
+        <!--flex div-->
+        <div class="flex lg:flex-row flex-wrap lg:gap-14 md:gap-10 gap-6 md:p-16 p-10">
+        <!--logo part-->
+        <div class="lg:w-[30%] md:w-[50%] w-full h-auto flex flex-col flex-wrap md:gap-6 gap-4 p-6">
+            <!--image-->
+            <div class="flex flex-row md:gap-6 gap-4 items-center">
+                <div class="w-[150px] h-[90px] rounded-full"><img class="w-full h-full" src="urdu-idreesia-logo.png" alt=""></div>
+                <h1 class="text-yellow-500/80 font-medium md:text-xl text-lg">Silsila Muhammadia Ameenia Idreesia</h1>
+            </div>
+            <!--text-->
+            <p class="md:text-lg text-md">A spiritual path guiding people toward obedience to Allah Almighty and the Prophet صَلَّى اللّٰهُ عَلَيْهِ وَسَلَّمَ, instilling love and greatness in hearts through Durood Shareef, Zikr, and Wazaif.</p>
+        </div>
+
+        <!--contact part-->
+        <div class="lg:w-[30%] md:w-[50%] w-full p-6 md:gap-8 gap-6 flex flex-col flex-wrap md:ml-[250px] lg:ml-0 ml-0">
+            <h1 class="md:text-2xl text-xl font-medium">Contact Info</h1>
+            <div class="flex flex-row gap-4">
+                <div class="w-[50px] h-[50px] bg-yellow-500/80 rounded-full flex items-center justify-center text-2xl font-thin text-white"><i class="ri-phone-line"></i></div>
+                <div class="gap-2">
+                    <p class="text-lg">Phone No</p>
+                    <p class="text-md text-white/60 cursor-pointer hover:text-yellow-500/70 transform transition-all duration-500 ease-in-out">061-111-111-381</p>
+                </div>
+            </div>
+
+            <div class="flex flex-row gap-4">
+                <div class="w-[50px] h-[50px] bg-yellow-500/80 rounded-full flex items-center justify-center text-2xl font-thin text-white"><i class="ri-mail-line"></i></div>
+                <div class="gap-2">
+                    <p class="text-lg">Email Address</p>
+                    <p class="text-md text-white/60 cursor-pointer hover:text-yellow-500/70 transform transition-all duration-500 ease-in-out">idreesia381@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="flex flex-row gap-4">
+                <div class="w-[50px] h-[50px] bg-yellow-500/80 p-4 rounded-full flex items-center justify-center text-2xl font-thin text-white"><i class="ri-map-pin-line"></i></div>
+                <div class="gap-2">
+                    <p class="text-lg">Address</p>
+                    <p class="text-md text-white/60 cursor-pointer hover:text-yellow-500/70 transform transition-all duration-500 ease-in-out">381-A Block Shah Rukn-e-Alam Colony, Near Thana Stop, Multan, Pakistan</p>
+                </div>
+            </div>
+        </div>
+
+        <!--social account-->
+        <div class="lg:w-[30%] md:w-[50%] w-full flex flex-col flex-wrap lg:gap-8 gap-6 p-6">
+            <h1 class="md:text-2xl text-xl font-medium">Learn More</h1>
+            <div class="text-md font-thin flex flex-row flex-wrap lg:gap-16 gap-10">
+                <p class="hover:text-yellow-500/80 cursor-pointer transform transition-all duration-500 ease-in-out"><i class="ri-arrow-drop-right-line"></i><b>About</b></p>
+                <p class="hover:text-yellow-500/80 cursor-pointer transform transition-all duration-500 ease-in-out"><i class="ri-arrow-drop-right-line"></i><b>Contact</b></p>
+                <p class="hover:text-yellow-500/80 cursor-pointer transform transition-all duration-500 ease-in-out"><i class="ri-arrow-drop-right-line"></i><b>Gallery</b></p>
+            </div>
+            <h1 class="md:text-2xl text-xl font-medium">Connect With Us</h1>
+            <div class="flex flex-row flex-wrap gap-4">
+                <div class="w-[30px] h-[30px] rounded-full hover:[transform:rotate(360deg)] transition-transform duration-500 cursor-pointer"><img class="w-full h-full" src="whatsapp.png" alt=""></div>
+                <div class="w-[30px] h-[30px] rounded-full hover:[transform:rotate(360deg)] transition-transform duration-500 cursor-pointer"><img class="w-full h-full" src="youtube.png" alt=""></div>
+                <div class="w-[30px] h-[30px] rounded-full hover:[transform:rotate(360deg)] transition-transform duration-500 cursor-pointer"><img class="w-full h-full" src="playstore.png" alt=""></div>
+                <div class="w-[30px] h-[30px] rounded-full hover:[transform:rotate(360deg)] transition-transform duration-500 cursor-pointer"><img class="w-full h-full" src="app-store.png" alt=""></div>
+            </div>
+        </div>
+        </div>
+
+        <!--copyright-->
+        <div class="w-full h-auto bg-green-900/90 text-center">
+            <p class="md:p-8 p-4">© 2025 Silsila Muhammadia Ameenia Idreesia All Rights Reserved.</p>
+        </div>
+    </section>
+
 </body>
 </html>
